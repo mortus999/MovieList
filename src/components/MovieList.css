@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://www.countynewscenter.com/wp-content/uploads/movie-theater-seats-scaled.jpg");
+    
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px 0;
+    box-shadow: 2 2px 4px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.card-genre {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.card-button {
+    margin-right: 8px;
+}
+
+.card-image {
+    width: 250px;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px; 
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ff0000; 
+    color: #ffffff; 
+    background-color: transparent; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+  
+select {
+    margin: 10px;
+}
